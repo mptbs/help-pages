@@ -73,6 +73,20 @@ Show help - should be this help.
 
 Press this when you are done with Mu. Mu will make sure you've saved your work if you want to keep it.
 
+# Advanced - settings file
+
+Workspace settings are stored in a file named settings.json.
+
+By default this file is located in the application data directory, but a settings file in the same directory as the Mu application itself will take priority.
+
+By default, Mu uses a bundled version of the MicroPython runtime, but advanced users (e.g. those developing the Microbit runtime) can use the settings.json file to configure Mu to use their own runtime hex file.
+
+To do this, add a line like this to the settings.json file:
+
+"microbit_runtime_hex": "customhex.hex"
+
+If the file name is not fully qualified then it will be searched for in the workspace directory.
+
 # Microbit Help
 
 [Microbit Micropython Help](https://microbit-micropython.readthedocs.io/en/latest/)
