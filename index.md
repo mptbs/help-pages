@@ -5,7 +5,7 @@ title: Mu - Help
 <div id="mu-help-header-inject"></div>
 <div class="jumbotron">
     <h1>Help for Mu</h1>
-    <p class="lead"><a href="/">Mu</a> is a simple code editor for beginner
+    Mu is a simple code editor for beginner
     programmers. It's written in Python and works on Windows, OSX, Linux and Raspberry Pi.</p>
 </div>
 
@@ -14,7 +14,7 @@ title: Mu - Help
 ## Starting Mu
 
 In order to start the Mu, just click on the Mu icon to run the program. 
-![icon](icon/load.png)
+![icon](images/icon.png)
 
 To make sure the Thunderboard Sense is connected, open the Repl and press enter. ">>>" should show up. 
 
