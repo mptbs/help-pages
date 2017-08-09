@@ -13,7 +13,10 @@ title: Mu - Help
 
 ## Starting Mu
 
-Coming soon... ;-)
+In order to start the Mu, just click on the Mu icon to run the program. 
+![icon](icon/load.png)
+
+To make sure the Thunderboard Sense is connected, open the Repl and press enter. ">>>" should show up. 
 
 ## Mu Buttons
 
@@ -33,19 +36,19 @@ Load a file - your old work or some other python file to work on.
 Saves your work so you can keep it for later and not loose it if you loose power. Do this often!
 
 ### Flash
-![flash button](images/flash.png)
+![flash button](images/run.png)
 
-Flash your code onto the Microbit. This is how you get your code to run!
+Run your code on the Thunderboard Sense. This does not store the code on the Thunderboard Sense. 
 
 ### Files
 ![files button](images/files.png)
 
-Show the files on your Micropython.
+Show the files stored on your Thunderboard.
 
 ### Repl
 ![repl button](images/repl.png)
 
-The repl is a way of typing stuff and seeing the microbit do something immediately. It is an abbreviation for "read-eval-print-loop".
+The repl is a way of typing stuff and seeing the Thunderboard do something immediately. It is an abbreviation for "read-eval-print-loop".
 
 ### Zoom In
 ![Zoom in button](images/zoom-in.png)
@@ -72,21 +75,3 @@ Show help - should be this help.
 ![Quit Button](images/quit.png)
 
 Press this when you are done with Mu. Mu will make sure you've saved your work if you want to keep it.
-
-# Advanced - settings file
-
-Workspace settings are stored in a file named settings.json.
-
-By default this file is located in the application data directory, but a settings file in the same directory as the Mu application itself will take priority.
-
-By default, Mu uses a bundled version of the MicroPython runtime, but advanced users (e.g. those developing the Microbit runtime) can use the settings.json file to configure Mu to use their own runtime hex file.
-
-To do this, add a line like this to the settings.json file:
-
-"microbit_runtime_hex": "customhex.hex"
-
-If the file name is not fully qualified then it will be searched for in the workspace directory.
-
-# Microbit Help
-
-[Microbit Micropython Help](https://microbit-micropython.readthedocs.io/en/latest/)
