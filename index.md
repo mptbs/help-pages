@@ -12,10 +12,9 @@ title: Mu - Help
 # Help
 
 ## Starting Mu
-
-In order to start the Mu, just click on the Mu icon to run the program. 
 ![icon](images/icon.png)
 
+In order to start the Mu, just click on the Mu icon to run the program. 
 To make sure the Thunderboard Sense is connected, open the Repl and press enter. ">>>" should show up. 
 
 ## Mu Buttons
