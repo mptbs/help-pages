@@ -9,40 +9,39 @@ title: Mu - Help
     programmers. It's written in Python and works on Windows, OSX and Linux.</p>
 </div>
 
-# Help
-
-## Starting Mu
+# Starting Mu
 ![icon](images/icon.png)
 
 In order to start the Mu, just click on the Mu icon to run the program. 
-To make sure the Thunderboard Sense is connected, open the Repl and press enter. ">>>" should show up. 
+To make sure the Thunderboard Sense is connected, open the Repl and press enter. "> > >" should show up. If it doesn't, try to reset the Thunderboard. The Thunderboard is now ready to be used.
 
-## Mu Buttons
+
+# Mu Buttons
 
 ### New
 ![new button](images/new.png)
 
-Click the new button to start in a new file in mu. This won't damage your old files - a fresh place to work.
+Click the new button to start in a new file in mu. This won't damage your old files. It is just a fresh place to work.
 
 ### Load
 ![load button](images/load.png)
 
-Load a file - your old work or some other python file to work on.
+Load a file. Continue working on a file you have stored locally. 
 
 ### Save
 ![save button](images/save.png)
 
-Saves your work so you can keep it for later and not loose it if you loose power. Do this often!
+Saves your work so you can keep it for later and not lose it if you lose power. This should be done regularly!
 
 ### Flash
 ![flash button](images/run.png)
 
-Run your code on the Thunderboard Sense. This does not store the code on the Thunderboard Sense. 
+Run your code on the Thunderboard Sense. This does not store the code on the Thunderboard Sense, and will be lost once the board is reset. 
 
 ### Files
 ![files button](images/files.png)
 
-Show the files stored on your Thunderboard.
+Show the files stored on your Thunderboard. To transfer the files to your board, just drag and drop them from "Files on your computer:" to "Files on your board:". main.py is the file that will run on the board. Other files you add to the board can be imported to main.py using the Python standard. 
 
 ### Repl
 ![repl button](images/repl.png)
