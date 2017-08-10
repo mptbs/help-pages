@@ -5,7 +5,7 @@ title: Mu - Help
 <div id="mu-help-header-inject"></div>
 <div class="jumbotron">
     <h1>Help for Mu</h1>
-    Mu is a simple code editor for beginner
+    <p>Mu is a simple code editor for beginner
     programmers. It's written in Python and works on Windows, OSX and Linux.</p>
 </div>
 
