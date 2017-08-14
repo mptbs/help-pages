@@ -7,7 +7,7 @@ title: Mu - Help
 ![icon](/mu-help/images/icon.png)
 
 In order to start the Mu, just click on the Mu icon to run the program. 
-To make sure the Thunderboard Sense is connected, open the [Repl](#repl) and press enter. "> > >" should show up. If it doesn't, a program might be running. Try pressing CTRL+C to exit the running program. If that doesn't work, try to reset the Thunderboard.
+To make sure the Thunderboard Sense is connected, open the [Repl](#repl) and press enter. "> > >" should show up. If it doesn't, a program might be running. Try pressing <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> to exit the running program. If that doesn't work, try to reset the Thunderboard.
 
 
 # Mu Buttons
