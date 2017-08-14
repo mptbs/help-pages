@@ -7,7 +7,7 @@ title: Mu - Help
 ![icon](/mu-help/images/icon.png)
 
 In order to start the Mu, just click on the Mu icon to run the program. 
-To make sure the Thunderboard Sense is connected, open the Repl and press enter. "> > >" should show up. If it doesn't, try to reset the Thunderboard. The Thunderboard is now ready to be used.
+To make sure the Thunderboard Sense is connected, open the [Repl](#repl) and press enter. "> > >" should show up. If it doesn't, a program might be running. Try pressing CTRL+C to exit the running program. If that doesn't work, try to reset the Thunderboard.
 
 
 # Mu Buttons
@@ -27,41 +27,42 @@ Load a file. Continue working on a file you have stored locally.
 
 Saves your work so you can keep it for later and not lose it if you lose power. This should be done regularly!
 
-### Flash
-![flash button](/mu-help/images/run.png)
+### Run
+![run button](/mu-help/images/run.png)
 
-Run your code on the Thunderboard Sense. This does not store the code on the Thunderboard Sense, and will be lost once the board is reset. 
+Run your code on the Thunderboard Sense. This does not store the code on the board, and will be lost once the board is reset. 
 
 ### Files
 ![files button](/mu-help/images/files.png)
 
-Show the files stored on your Thunderboard. To transfer the files to your board, just drag and drop them from "Files on your computer:" to "Files on your board:". main.py is the file that will run on the board. Other files you add to the board can be imported to main.py using the Python standard. 
+Show the files stored on your Thunderboard. To transfer the files to your board, just drag and drop them from "Files on your computer:" to "Files on your board:". main.py is the file that will run when the board is reset. Hence, to make your program start automatically after a reset, save your program as main.py before transferring it to the board. Other files you transfer to the board, can be imported into main.py following the Python standard. 
 
 ### Repl
 ![repl button](/mu-help/images/repl.png)
+<a name="repl"></a>
 
 The repl is a way of typing stuff and seeing the Thunderboard do something immediately. It is an abbreviation for "read-eval-print-loop".
 
 ### Zoom In
 ![Zoom in button](/mu-help/images/zoom-in.png)
 
-Make the letters bigger
+Make the text bigger
 
 ### Zoom Out
 
 ![Zoom out button](/mu-help/images/zoom-out.png)
 
-Make the letters smaller
+Make the text smaller
 
 ### Check
 ![Check Code button](/mu-help/images/check.png)
 
-This button will check your code and underline errors you have made. Worth doing before you flash your code.
+This button will check your code and underline errors you have made. Worth doing before you run your code.
 
 ### Help
 ![Help Button](/mu-help/images/help.png)
 
-Show help - should be this help.
+Open this help page.
 
 ### Quit
 ![Quit Button](/mu-help/images/quit.png)
